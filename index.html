@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sam Software - En la Nube</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sky">
+<div class="sun"></div>
+<div class="moon"></div>
+<div id="stars"></div>
+<img src="img/nube.png" class="bg-cloud c1" alt="nube">
+<img src="img/nube.png" class="bg-cloud c2" alt="nube">
+<img src="img/nube.png" class="bg-cloud c3" alt="nube">
+<img src="img/nube.png" class="bg-cloud c4" alt="nube">
+</div>
+<header class="header">
+<div class="logo">
+<img src="img/logo.png" alt="Sam Software Logo">
+</div>
+<nav class="nav">
+<a href="#inicio">Inicio</a>
+<a href="#quienes">Quiénes Somos</a>
+<a href="#servicios">Servicios</a>
+<a href="#caracteristicas">Características</a>
+<a href="#testimonios">No se</a>
+<a href="#precios">Precios</a>
+<a href="#contacto">Contacto</a>
+<a href="#" class="sammy-link">Sammy</a>
+</nav>
+<div class="auth-buttons">
+<button id="loginBtn">Iniciar Sesión</button>
+<button id="registerBtn">Registrarme</button>
+</div>
+<button class="mode-toggle">🌙</button>
+</header>
+<main class="page">
+<section class="hero" id="inicio">
+<div class="clouds">
+<img src="img/nube.png" alt="Nube principal" class="main-cloud">
+<img src="img/sammy.png" alt="Sammy flotando" class="sammy">
+</div>
+<div class="hero-text">
+<h1>Bienvenidos a <span>Sam Software</span></h1>
+<p>Soluciones en la nube con un toque de creatividad ☁️</p>
+</div>
+</section>
+<section class="quienes_somos" id="quienes">
+<div class="container">
+<h2>Quiénes Somos</h2>
+<p>En Sam Software combinamos tecnología y diseño para crear experiencias únicas. Somos un equipo apasionado por el desarrollo de soluciones digitales modernas, seguras y escalables, que impulsan el crecimiento de empresas e instituciones.</p>
+<img src="img/team.png" alt="Equipo Sam Software">
+</div>
+</section>
+<section class="services" id="servicios">
+<h2>Servicios</h2>
+<div class="service-cards">
+<div class="card">
+<h3>Desarrollo Web</h3>
+<p>Diseñamos sitios modernos y responsivos que reflejan la identidad de tu marca.</p>
+</div>
+<div class="card">
+<h3>Software Personalizado</h3>
+<p>Desarrollamos soluciones hechas a la medida para tu negocio.</p>
+</div>
+<div class="card">
+<h3>Soporte en la Nube</h3>
+<p>Infraestructura optimizada, segura y siempre disponible.</p>
+</div>
+</div>
+</section>
+<section class="caracteristicas" id="caracteristicas">
+<h2>Características</h2>
+<div class="feature-grid">
+<div class="feature">
+<h3>🔒 Seguridad</h3>
+<p>Tus datos protegidos con encriptación avanzada y respaldo constante.</p>
+</div>
+<div class="feature">
+<h3>⚡ Velocidad</h3>
+<p>Implementaciones rápidas y sistemas optimizados para un rendimiento superior.</p>
+</div>
+<div class="feature">
+<h3>🌎 Accesibilidad</h3>
+<p>Conéctate desde cualquier lugar, en cualquier dispositivo, con total estabilidad.</p>
+</div>
+</div>
+</section>
+<section class="testimonials" id="testimonios">
+<h2>Testimonios</h2>
+<div class="testimonials-container">
+<div class="testimonial">
+<p>“Sam Software transformó la manera en que gestionamos nuestros procesos. Su solución en la nube es increíblemente intuitiva.”</p>
+<h4>— Laura Méndez, CEO de Innovatech</h4>
+</div>
+<div class="testimonial">
+<p>“Gracias a Sam Software, logramos automatizar nuestras tareas y mejorar la productividad del equipo.”</p>
+<h4>— Carlos Ramírez, Director de Proyectos</h4>
+</div>
+</div>
+</section>
+<section class="pricing" id="precios">
+<h2>Planes</h2>
+<div class="pricing-cards">
+<div class="price-card">
+<h3>Básico</h3>
+<p>$15/mes</p>
+<ul>
+<li>Hosting incluido</li>
+<li>1 proyecto</li>
+<li>Soporte por correo</li>
+</ul>
+<button>Elegir</button>
+</div>
+<div class="price-card popular">
+<h3>Profesional</h3>
+<p>$30/mes</p>
+<ul>
+<li>Hosting y dominio</li>
+<li>5 proyectos</li>
+<li>Soporte prioritario</li>
+</ul>
+<button>Elegir</button>
+</div>
+<div class="price-card">
+<h3>Empresarial</h3>
+<p>$60/mes</p>
+<ul>
+<li>Infraestructura dedicada</li>
+<li>Proyectos ilimitados</li>
+<li>Soporte 24/7</li>
+</ul>
+<button>Elegir</button>
+</div>
+</div>
+</section>
+<section class="contact" id="contacto">
+<h2>Contáctanos</h2>
+<form class="contact-form">
+<input type="text" placeholder="Nombre">
+<input type="email" placeholder="Correo">
+<textarea placeholder="Mensaje"></textarea>
+<button type="submit">Enviar</button>
+</form>
+</section>
+</main>
+<footer>
+<p>© 2025 Sam Software | Todos los derechos reservados</p>
+</footer>
+<div id="modal-login" class="modal">
+<div class="modal-content">
+<span class="close">&times;</span>
+<h2>Iniciar Sesión</h2>
+<input type="email" placeholder="Correo electrónico">
+<input type="password" placeholder="Contraseña">
+<button>Entrar</button>
+</div>
+</div>
+<div id="modal-register" class="modal">
+<div class="modal-content">
+<span class="close">&times;</span>
+<h2>Registrarme</h2>
+<input type="text" placeholder="Nombre">
+<input type="email" placeholder="Correo">
+<input type="password" placeholder="Contraseña">
+<button>Crear cuenta</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
